@@ -1,0 +1,19 @@
+# Step 1: get inputs
+x = float(input("Enter first number: "))
+y = float(input("Enter second number : "))
+op = input("Enter operation (+, -, *, /): ")
+
+# Step 2: decision making
+if op == "+":
+    print(f"{x} + {y} = {x + y}")
+elif op == "-":
+    print(f"{x} - {y} = {x - y}")
+elif op == "*":
+    print(f"{x} * {y} = {x * y}")
+elif op == "/":
+    if y == 0:
+        print("Error: Cannot divide by zero")
+    else:
+        print(f"{x} / {y} = {x / y}")
+else:
+    print("Invalid operation")
