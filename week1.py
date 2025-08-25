@@ -30,7 +30,8 @@ capital_cities = {"kenya": "Nairobi", "Tanzania": "Dodoma", "Uganda": "Kampala"}
 print(capital_cities)
 print(capital_cities["kenya"]) # Accessing a value by key
 print(capital_cities["Tanzania"]) # Accessing another value by key  
-print(capital_cities["Uganda"]) # Accessing another value by keys#
+print(capital_cities["Uganda"]) # Accessing another value by keys
+#
 
 while True:
     name = input("What is your name? ")
